@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" maxlength="100" required>
+        </fieldset>
+        <fieldset>
+            <label for="apellidos">apellidos</label>
+            <input type="text" name="apellidos" maxlength="100" required>
+        </fieldset>
+        <fieldset>
+            <label for="telefono">telefono</label>
+            <input type="tel" name="telefono" maxlength="10" minlength="10" required>
+        </fieldset>
+        <fieldset><label for="direccion">direccion</label>
+            <input type="text" name="direccion" maxlength="200" required>
+        </fieldset>
+        <fieldset>
+            <label for="gustos">gustos</label>
+            <input type="text" name="gustos" maxlength="150">
+        </fieldset>
+    
+        <fieldset>
+            <legend>genero</legend>
+            <input type='radio' 
+                      name='genero' value='f'> f
+            <input type='radio'
+                      name='genero' value='m'> m
+           </fieldset>
+
+    </form>
+</body>
+
+</html>
